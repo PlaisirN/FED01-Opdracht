@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+h1, p{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    font-size: 1em;
+}
+
+#map{
+    width:50%;
+    height: 100vh;
+    float: left;
+    position: fixed !important;
+}
+
+.container-right{
+    overflow: hidden;
+    width: 50%;
+    float: right;
+}
+
+#showSupermarketsButton{
+    margin: 10px auto 0;
+    cursor: pointer;
+    display: block;
+    width: 350px;
+    height: 50px;
+    background-color: lightcoral;
+    box-shadow: 0 2px lightcyan;
+    color: white;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.supermarket{
+    width: 100%;
+    max-width: 411px;
+    float: left;
+    list-style-type: none;
+    height: 120px;
+    margin: 0 20px 19px 20px;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.gegevens{
+    font-size: 0.5em;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .supermarket{
+        max-width: 277px;
+    }
+
+}
